@@ -1,3 +1,3 @@
 # df-wp-classic-minimal-blank
- Minimalist, classic, blank WordPress theme
+ Minimal, classic, blank WordPress theme
 - clean wp head
