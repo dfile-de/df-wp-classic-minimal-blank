@@ -1,7 +1,7 @@
 <?php
 //backend styles
 if ( ! function_exists( 'df_blank_support' ) ) :
-	//eets up theme defaults and registers support for various WordPress features.
+	//set up theme defaults and registers support for various WordPress features.
 	function df_blank_support() {
 		//add support for block styles.
 		//add_theme_support( 'wp-block-styles' );
@@ -23,7 +23,7 @@ add_action( 'after_setup_theme', 'df_blank_support' );
 
 //backend scripts
 function my_custom_admin_scripts() {
-	// register the script
+	//register the script
 	wp_register_script(
 			'my-custom-script',
 			get_template_directory_uri() . '/js/custom-script.js', // path to the script
